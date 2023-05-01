@@ -64,7 +64,7 @@
     height: 3rem;
     width: 3rem;
     display: none;
-    z-index: 300;
+    z-index: 600;
 }
 .navbar__button_cont{
     position: relative;
@@ -104,6 +104,8 @@
         flex-direction: column;
         left: 100%;
         padding: 6rem 0rem;
+        z-index: 300;
+        background-color: var(--first-color);
     }
     .active {
         left: 0%;
