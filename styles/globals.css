@@ -8,15 +8,18 @@
 :root {
   /*Letter color*/
   --letter: rgb(32,32,32);
+  --plain: white;
   /*Others variables*/
-  --primary-color:rgb(218,217,206);
-  --primary-color-dark:rgb(185, 184, 174);
+  --first-color: #ffebbb;
+  --second-color:#ffcab0;
+  --third-color:#fdffcd;
+  --fourth-color:#e0ffcd;
 }
 .conteiner{
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-color: var(--primary-color);
+  background-color: var(--plain);
   position: relative;
 }
 

@@ -21,7 +21,6 @@
     text-decoration: none;
     z-index: 300;
     transition: all 500ms ease;
-    background-color: aliceblue;
 }
 .navbar__body a{
     padding: .2rem .5rem;

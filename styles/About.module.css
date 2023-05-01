@@ -4,7 +4,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #ffcab0;
+    background-color:  var(--second-color);
     display: flex;
     justify-content: center;
     align-items: center;
