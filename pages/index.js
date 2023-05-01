@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { motion as m } from "framer-motion"
+import Image from 'next/image'
+import heroImg from '../public/wordcloud3.png'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,7 +24,10 @@ export default function Home() {
         exit={{opacity:0}}
         className={styles.home__conteiner}
       >
-        Index
+        <div className={styles.home__imageConteiner}>
+        <Image alt='brain logo with words' className={styles.home__image} src={heroImg} fill  />
+        </div>
+        
       </m.main>
     </>
   )
