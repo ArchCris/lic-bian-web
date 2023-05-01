@@ -6,6 +6,9 @@
   overflow: hidden;
 }
 :root {
+  /*Letter color*/
+  --letter: rgb(32,32,32);
+  /*Others variables*/
   --primary-color:rgb(218,217,206);
   --primary-color-dark:rgb(185, 184, 174);
 }

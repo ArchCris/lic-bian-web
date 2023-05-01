@@ -5,4 +5,10 @@
     height: 100%;
     width: 100%;
     background-color: #ffcab0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+  

@@ -22,6 +22,7 @@ export default function Home() {
         exit={{opacity:0}}
         className={styles.home__conteiner}
       >
+        Index
       </m.main>
     </>
   )
