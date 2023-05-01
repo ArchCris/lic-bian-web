@@ -27,7 +27,13 @@ const Navbar = () => {
         <Link onClick={()=>{setClicked(false)}} href={"/Podcast"}>Podcast</Link>
         <Link onClick={()=>{setClicked(false)}} href={"/Contact"}>Contact</Link>
       </div>
-      <div onClick={()=>{toggleMenu()}} className={styles.navbar__button}>ACA</div>
+      <div onClick={()=>{toggleMenu()}} className={styles.navbar__button}>
+        <div className={styles.navbar__button_cont}>
+          <div className={clicked ? `${styles.navbar__bar1} ${styles.trans1}` : `${styles.navbar__bar1}`} ></div>
+          <div className={clicked ? `${styles.navbar__bar2} ${styles.trans2}` : `${styles.navbar__bar2}`} ></div>
+          <div className={clicked ? `${styles.navbar__bar3} ${styles.trans3}` : `${styles.navbar__bar3}`} ></div>
+        </div>
+      </div>
     </div>
   )
 }
