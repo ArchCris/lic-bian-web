@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 :root {
   /*Letter color*/
@@ -15,7 +16,6 @@
   --fourth-color:#e0ffcd;
 }
 .conteiner{
-  overflow: hidden;
   position: relative;
   background-image:
   radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),

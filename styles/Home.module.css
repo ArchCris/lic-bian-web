@@ -15,7 +15,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 2rem;
   padding-top: 10vh;
 }
 .home__sectionB{
@@ -39,8 +38,8 @@
   margin-left: 1rem;
 }
 .home__imageConteiner{
-  height: 50%;
-  aspect-ratio: 1;
+  height: 60%;
+  aspect-ratio: 1.2;
   position: relative;
 }
 .home__image{

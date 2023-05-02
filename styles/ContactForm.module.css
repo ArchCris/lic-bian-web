@@ -1,6 +1,6 @@
 .ContactForm__conteiner{
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: 60%;
 }
 .ContactForm__form{
     height: 100%;

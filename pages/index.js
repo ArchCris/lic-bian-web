@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { motion as m } from "framer-motion"
 import Image from 'next/image'
-import heroImg from '../public/wordcloud3.png'
+import heroImg from '../public/brainPng.png'
 
 
 const inter = Inter({ subsets: ['latin'] })
