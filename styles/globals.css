@@ -3,7 +3,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 :root {
   /*Letter color*/
@@ -16,8 +15,6 @@
   --fourth-color:#e0ffcd;
 }
 .conteiner{
-  height: 100vh;
-  width: 100vw;
   overflow: hidden;
   background-color: var(--plain);
   position: relative;

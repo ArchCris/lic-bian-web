@@ -10,7 +10,12 @@ const Contact = () => {
     transition={{duration:0.75,ease:"easeOut"}}
     exit={{opacity:0}}
     className={styles.contact__conteiner}>
-        Contact
+      <div className={styles.contact__sectionA}>
+      ContactA
+      </div>
+      <div className={styles.contact__sectionB}>
+      ContactB
+      </div>
     </m.div>
   )
 }

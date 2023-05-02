@@ -24,11 +24,17 @@ export default function Home() {
         exit={{opacity:0}}
         className={styles.home__conteiner}
       >
-        <div className={styles.home__imageConteiner}>
-        <Image alt='brain logo with words' className={styles.home__image} src={heroImg} fill  />
+        <div className={styles.home__sectionA}>
+          <div className={styles.home__imageConteiner}>
+          <Image alt='brain logo with words' className={styles.home__image} src={heroImg} fill  />
+          </div>
         </div>
-        
+        <div className={styles.home__sectionB}>
+          <h3 className={styles.home__phrase}>&quot;Cuando haces lo que mas temes, puedes hacer cualquier cosa&quot;</h3>
+          <p className={styles.home__phrase_author}>Stephen Richards.</p>
+        </div>
       </m.main>
+      
     </>
   )
 }
