@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div className='conteiner'>
       <AnimatePresence initial={false}>
-        <Navbar {...pageProps}/>
+        <Navbar/>
         <Component key={router.pathname} {...pageProps} />
       </AnimatePresence>
     </div>
