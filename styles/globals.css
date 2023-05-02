@@ -19,11 +19,13 @@
 }
 .conteiner{
   position: relative;
+  z-index: 0;
   background:
     linear-gradient(45deg, var(--pattern) 45px, transparent 45px)64px 64px,
     linear-gradient(45deg, var(--pattern) 45px, transparent 45px,transparent 91px, white 91px, white 135px, transparent 135px),
     linear-gradient(-45deg, var(--pattern) 23px, transparent 23px, transparent 68px,var(--pattern) 68px,var(--pattern) 113px,transparent 113px,transparent 158px,var(--pattern) 158px);
   background-color:white;
   background-size: 128px 128px;
+  
 }
 
