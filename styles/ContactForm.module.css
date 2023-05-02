@@ -13,7 +13,7 @@
     font-size: 1.2rem;
 }
 .ContactForm__form label{
-    margin: 1rem 0 .2rem 0;
+    margin: 1.2rem 0 .2rem 0;
 }
 .ContactForm__form input{
     width: 100%;
@@ -34,10 +34,18 @@
 .input__error{
     border: solid 2px red;
 }
+.input__errorText{
+    margin-top: .2rem;
+    color: red;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .ContactForm__conteiner{
-        height: 80%;
+        height: 100%;
         width: 80%;
+    }
+    .ContactForm__form{
+        height: auto;
+        
     }
 }

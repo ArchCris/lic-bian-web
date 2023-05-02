@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from '../styles/ContactForm.module.css'
 import { useFormik } from 'formik'
 import formSchema from '@/schemas';
+import { sendContactForm } from '@/lib/api';
 
 const ContactForm = () => {
 
-    const onSubmit = (values, actions)=>{
-        console.log(values, actions)
-        actions.resetForm()
+    const[messageStatus,setMessageStatus]=useState(false)
+
+    const onSubmit = async (values, {resetForm} )=>{
+        try{
+            await sendContactForm(values)
+            setMessageStatus(true)
+            resetForm()
+        }catch(err){
+            console.log(err)
+        }
     }
 
     const {values,errors, touched,handleBlur,isSubmitting, handleChange, handleSubmit} = useFormik({
@@ -20,7 +28,6 @@ const ContactForm = () => {
         onSubmit,
       });
 
-      console.log(touched.name)
       
   return (
     <div className={styles.ContactForm__conteiner}>
@@ -35,7 +42,7 @@ const ContactForm = () => {
                 onBlur={handleBlur}
                 className={ errors.name && touched.name  ? `${styles.input__error}` : null}
             />
-            {errors.name && touched.name  ? <p>Colocar un nombre valido por favor.</p> : null}
+            {errors.name && touched.name  ? <p className={styles.input__errorText}>Colocar un nombre valido por favor.</p> : null}
             <label htmlFor="email">Email Address</label>
             <input
                 id="email"
@@ -46,7 +53,7 @@ const ContactForm = () => {
                 onBlur={handleBlur}
                 className={ errors.email && touched.email  ? `${styles.input__error}` : null}
             />
-            {errors.email && touched.email  ? <p>Colocar un email valido por favor.</p> : null}
+            {errors.email && touched.email  ? <p className={styles.input__errorText}>Colocar un email valido por favor.</p> : null}
             <label htmlFor="email">Mensaje</label>
             <textarea
                 id="message"
@@ -57,8 +64,9 @@ const ContactForm = () => {
                 onBlur={handleBlur}
                 className={ errors.message && touched.message  ? `${styles.input__error}` : null}
             />
-            {errors.message && touched.message ? <p>Colocar un mensaje valido por favor.</p> : null}
+            {errors.message && touched.message ? <p className={styles.input__errorText}>Colocar un mensaje valido por favor.</p> : null}
             <button disabled={isSubmitting} type="submit">Submit</button>
+            {messageStatus ? <p>Mensaje enviado :D</p> : null}
         </form>
     </div>
   )

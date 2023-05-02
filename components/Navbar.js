@@ -15,7 +15,6 @@ const Navbar = () => {
     }else{
       setClicked(true)
     }
-    console.log(clicked)
   }
 
 
