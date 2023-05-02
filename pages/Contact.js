@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from '../styles/Contact.module.css'
 import { motion as m } from "framer-motion"
+import ContactForm from '@/components/ContactForm'
+import Image from 'next/image'
+import papperPlane from '../public/papperPlane.png'
 
 const Contact = () => {
   return (
@@ -11,10 +14,12 @@ const Contact = () => {
     exit={{opacity:0}}
     className={styles.contact__conteiner}>
       <div className={styles.contact__sectionA}>
-      ContactA
+          <div className={styles.contact__imageConteiner}>
+            <Image alt='brain logo with words' className={styles.contact__image} src={papperPlane} fill  />
+          </div>
       </div>
       <div className={styles.contact__sectionB}>
-      ContactB
+        <ContactForm/>
       </div>
     </m.div>
   )

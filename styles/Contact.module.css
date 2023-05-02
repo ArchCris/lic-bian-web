@@ -10,5 +10,44 @@
     align-items: center;
     box-shadow: 0 0 50px lightgray;
   }
-
+  .contact__sectionA{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__imageConteiner{
+    position: relative;
+    width: 70%;
+    aspect-ratio: 1;
+  }
+  .contact__image{
+    object-fit: "contain";
+  }
+  .contact__sectionB{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contact__conteiner{
+      flex-direction: column;
+    }
+    .contact__sectionA{
+      height: 30%;
+      width: 100%;
+    }
+    .contact__imageConteiner{
+      width: 50%;
+    }
+    .contact__sectionB{
+      height: 70%;
+      width: 100%;
+      align-items: flex-start;
+    }
+  }
   
