@@ -9,27 +9,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 1.2rem;
 }
 .ContactForm__form label{
-    margin: 1.2rem 0 .2rem 0;
+    margin: 1.2rem 0 .2rem .5rem;
+}
+.ContactForm__form label::first-letter{
+    color: lightcoral;
 }
 .ContactForm__form input{
     width: 100%;
-    padding: .2rem;
+    padding: .4rem;
+    border-radius: 1rem;
+    border: none; 
+    outline: none;
 }
 .ContactForm__form textarea{
-    padding: .2rem;
+    padding: .4rem;
     width: 100%;
     min-height: 100px ;
+    border-radius: 1rem;
+    resize: none;
+    outline: none;
+    border: none;
 }
 .ContactForm__form button{
-    padding: .2rem;
-    margin-top: 1rem;
+    padding: .4rem;
+    margin-top: 2rem;
     width: 100%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    transition: all 200ms ease;
+}
+.ContactForm__form button:hover{
+    color: lightcoral;
+    background-color: white;
+    cursor: pointer;
 }
 .input__error{
     border: solid 2px red;

@@ -43,7 +43,7 @@ const ContactForm = () => {
                 className={ errors.name && touched.name  ? `${styles.input__error}` : null}
             />
             {errors.name && touched.name  ? <p className={styles.input__errorText}>Colocar un nombre valido por favor.</p> : null}
-            <label htmlFor="email">Email Address</label>
+            <label htmlFor="email">Email</label>
             <input
                 id="email"
                 name="email"
