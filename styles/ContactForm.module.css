@@ -9,11 +9,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-family: 'Righteous', cursive;
+    font-family: var(--main-typography);
     font-size: 1.2rem;
+    padding: 2rem;
 }
 .ContactForm__form label{
-    margin: 1.2rem 0 .2rem .5rem;
+    margin: 1.2rem 0 .4rem .5rem;
 }
 .ContactForm__form label::first-letter{
     color: lightcoral;
@@ -22,8 +23,10 @@
     width: 100%;
     padding: .4rem;
     border-radius: 1rem;
-    border: none; 
     outline: none;
+    border: none;
+    font-family: var(--main-typography);
+    font-size: .9rem;
 }
 .ContactForm__form textarea{
     padding: .4rem;
@@ -33,12 +36,13 @@
     resize: none;
     outline: none;
     border: none;
+    font-family: var(--main-typography);
 }
 .ContactForm__form button{
     padding: .4rem;
     margin-top: 2rem;
     width: 100%;
-    font-family: 'Righteous', cursive;
+    font-family: var(--main-typography);
     font-size: 1.2rem;
     border-radius: 1rem;
     border: none;
@@ -51,12 +55,21 @@
     background-color: white;
     cursor: pointer;
 }
+.ContactForm__form button:disabled{
+    background-color: rgb(156, 93, 93);
+}
 .input__error{
-    border: solid 2px red;
+    border: 2px solid red !important;
 }
 .input__errorText{
     margin-top: .2rem;
     color: red;
+}
+.button__succesText{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    color: green;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */

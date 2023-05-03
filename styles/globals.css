@@ -16,6 +16,8 @@
   --fourth-color:#FAC8D4;
 
   --pattern:rgb(230, 230, 230);
+
+  --main-typography:'Righteous', cursive;
 }
 .conteiner{
   position: relative;

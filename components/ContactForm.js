@@ -3,6 +3,8 @@ import styles from '../styles/ContactForm.module.css'
 import { useFormik } from 'formik'
 import formSchema from '@/schemas';
 import { sendContactForm } from '@/lib/api';
+import ClipLoader from "react-spinners/ClipLoader";
+import { motion as m } from "framer-motion"
 
 const ContactForm = () => {
 
@@ -30,7 +32,11 @@ const ContactForm = () => {
 
       
   return (
-    <div className={styles.ContactForm__conteiner}>
+    <m.div
+    initial={{x:'150%',opacity:0}}
+    animate={{x:'0%',opacity:1}}
+    transition={{duration:0.75,ease:"easeOut",delay:0.75}}
+    className={styles.ContactForm__conteiner}>
         <form onSubmit={handleSubmit} className={styles.ContactForm__form} autoComplete='off'>
             <label htmlFor="name">Nombre</label>
             <input               
@@ -40,7 +46,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 value={values.name}
                 onBlur={handleBlur}
-                className={ errors.name && touched.name  ? `${styles.input__error}` : null}
+                className={ errors.name && touched.name  ? styles.input__error : styles.inputField}
             />
             {errors.name && touched.name  ? <p className={styles.input__errorText}>Colocar un nombre valido por favor.</p> : null}
             <label htmlFor="email">Email</label>
@@ -51,7 +57,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 value={values.email}
                 onBlur={handleBlur}
-                className={ errors.email && touched.email  ? `${styles.input__error}` : null}
+                className={ errors.email && touched.email  ? styles.input__error : styles.inputField}
             />
             {errors.email && touched.email  ? <p className={styles.input__errorText}>Colocar un email valido por favor.</p> : null}
             <label htmlFor="email">Mensaje</label>
@@ -65,10 +71,18 @@ const ContactForm = () => {
                 className={ errors.message && touched.message  ? `${styles.input__error}` : null}
             />
             {errors.message && touched.message ? <p className={styles.input__errorText}>Colocar un mensaje valido por favor.</p> : null}
-            <button disabled={isSubmitting} type="submit">Submit</button>
-            {messageStatus ? <p>Mensaje enviado :D</p> : null}
+            <button disabled={isSubmitting} type="submit">Enviar&nbsp; &nbsp; 
+                <ClipLoader
+                color={'white'}
+                loading={isSubmitting}
+                size={15}
+                aria-label="Loading Spinner"
+                data-testid="loader"
+                />
+            </button>
+            {messageStatus ? <p className={styles.button__succesText}>Gracias por tu mensaje &#128513;</p> : null}
         </form>
-    </div>
+    </m.div>
   )
 }
 
