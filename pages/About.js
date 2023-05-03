@@ -21,7 +21,9 @@ const About = () => {
       exit={{opacity:0}}
       className={styles.about__conteiner}>
         <div className={styles.about__sectionA}>
-        <Image alt='woman placeholder' src={facePlaceholder} className={styles.about__sectionA_img}></Image>
+          <div className={styles.about__sectionA_img}>
+            <Image alt='woman placeholder' fill src={facePlaceholder} ></Image>
+          </div>
         </div>
         <div className={styles.about__sectionB}>
           <p className={styles.about__sectionB_text}>

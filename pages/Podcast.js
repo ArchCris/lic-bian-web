@@ -21,7 +21,9 @@ const Podcast = () => {
       exit={{opacity:0}}
       className={styles.podcast__conteiner}>
         <div className={styles.podcast__sectionA}>
-          <Image alt='woman siluette' src={spotify} className={styles.podcast__sectionA_img}></Image>
+          <div className={styles.podcast__sectionA_img} >
+            <Image alt='woman siluette' src={spotify} fill></Image>
+          </div>
         </div>
          <div className={styles.podcast__sectionB}>
           <p className={styles.podcast__sectionB_text}>
