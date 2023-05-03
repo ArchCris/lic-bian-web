@@ -23,7 +23,7 @@
     aspect-ratio: 1;
     filter: grayscale(.75);
 }
-.podcast__sectionA_img{
+.podcast__sectionA__img{
     object-fit: contain;
 }
 .podcast__sectionB{

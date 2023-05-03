@@ -6,7 +6,8 @@ import Badge from '@/components/Badge'
 import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
-
+import Image from 'next/image'
+import siluette from '../public/womanSiluette.png'
 
 
 
@@ -28,16 +29,16 @@ export default function Home() {
         exit={{opacity:0}}
         className={styles.home__conteiner}
       >
-        <div className={styles.home__sectionTop}>
+        <m.div className={styles.home__sectionTop}>
           <div className={styles.home__sectionTop_A}>
             <div className={styles.home__sectionTop_A_empapelado}>
-              
+              <Image alt='woman siluette' src={siluette} width={300} className={styles.home__sectionTop_A_empapelado_img}></Image>
             </div>
           </div>
           <div className={styles.home__sectionTop_B}>
             <h2 className={styles.home__sectionTop_B_title}>Lic. Bianca M Masci.</h2>
           </div>
-        </div>
+        </m.div>
         <m.div
         initial={{y:'100%'}}
         animate={{y:'0%'}}
