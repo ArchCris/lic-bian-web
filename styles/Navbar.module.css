@@ -42,7 +42,7 @@
     z-index: -1;
     content: "";
     background-color: var(--letter);
-    height: 2.15rem;
+    height: 100%;
     opacity: 0;
     width: 0%;
     top: 0;

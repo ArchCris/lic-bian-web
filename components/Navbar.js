@@ -22,9 +22,9 @@ const Navbar = () => {
     <div className={styles.navbar__conteiner}>
       <div className={clicked ? `${styles.navbar__body} ${styles.active}` : `${styles.navbar__body}`}>
         <Link onClick={()=>{setClicked(false)}} href={"/"}>Home</Link>
-        <Link onClick={()=>{setClicked(false)}} href={"/About"}>About me</Link>
+        <Link onClick={()=>{setClicked(false)}} href={"/About"}>Sobre mi</Link>
         <Link onClick={()=>{setClicked(false)}} href={"/Podcast"}>Podcast</Link>
-        <Link onClick={()=>{setClicked(false)}} href={"/Contact"}>Contact</Link>
+        <Link onClick={()=>{setClicked(false)}} href={"/Contact"}>Contacto</Link>
       </div>
       <div onClick={()=>{toggleMenu()}} className={styles.navbar__button}>
         <div className={styles.navbar__button_cont}>

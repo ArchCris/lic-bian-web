@@ -1,6 +1,6 @@
 .ContactForm__conteiner{
     height: auto;
-    width: 60%;
+    width: 70%;
 }
 .ContactForm__form{
     height: 100%;
@@ -78,7 +78,7 @@
     /* For mobile phones: */
     .ContactForm__conteiner{
         height: 100%;
-        width: 80%;
+        width: 90%;
     }
     .ContactForm__form{
         height: auto;

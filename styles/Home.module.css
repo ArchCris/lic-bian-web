@@ -33,13 +33,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: solid 2px grey;
-  border-right: solid 2px grey;
-  border-bottom: solid 2px grey;
+  border-top: solid 2px lightgrey;
+  border-right: solid 2px lightgrey;
+  border-bottom: solid 2px lightgrey;
   background-color: #F7F9D8;
-opacity: 0.8;
-background: linear-gradient(135deg, #b4b4b455 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(225deg, #b4b4b4 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(315deg, #b4b4b455 25%, transparent 25%) 0px 0/ 34px 34px, linear-gradient(45deg, #b4b4b4 25%, #F7F9D8 25%) 0px 0/ 34px 34px;
-
+  opacity: 0.8;
+  background: linear-gradient(135deg, #b4b4b455 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(225deg, #b4b4b4 25%, transparent 25%) -17px 0/ 34px 34px, linear-gradient(315deg, #b4b4b455 25%, transparent 25%) 0px 0/ 34px 34px, linear-gradient(45deg, #b4b4b4 25%, #F7F9D8 25%) 0px 0/ 34px 34px;
+  box-shadow: 10px 10px black;
 }
 .home__sectionTop_A_empapelado_img{
   object-fit: contain;

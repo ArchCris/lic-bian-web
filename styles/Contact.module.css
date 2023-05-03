@@ -38,14 +38,14 @@
       flex-direction: column;
     }
     .contact__sectionA{
-      height: 30%;
+      height: 25%;
       width: 100%;
     }
     .contact__imageConteiner{
-      width: 50%;
+      width: 45%;
     }
     .contact__sectionB{
-      height: 70%;
+      height: 75%;
       width: 100%;
       display: flex;
       justify-content: center;

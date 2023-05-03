@@ -21,7 +21,7 @@
     align-items: center;
     padding: 1.2rem;
     border-radius: 50%;
-    border: solid 1px black;
+    border: solid 2px black;
 }
 .badge__title{
     margin-top: .2rem;

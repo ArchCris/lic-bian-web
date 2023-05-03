@@ -10,6 +10,37 @@
     align-items: center;
     box-shadow: 0 0 50px lightgray;
 }
+.about__sectionA{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__sectionB{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__sectionB_text{
+    width: 80%;
+}
+@media only screen and (max-width: 768px) {
+    /*For mobile phones*/
+    .about__conteiner{
+        flex-direction: column;
+    }
+    .about__sectionA{
+        height: 40%;
+        width: 100%;
+    }
+    .about__sectionB{
+        height: 60%;
+        width: 100%;
+    }
+}
 
 
   
