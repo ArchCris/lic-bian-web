@@ -18,11 +18,14 @@
     align-items: center;
     position: relative;
 }
-.about__sectionA_img{
+.about__sectionA__conteiner{
+    position: relative;
     width: 60%;
     aspect-ratio: 1;
-    object-fit: contain;
     filter: grayscale(.75);
+}
+.about__sectionA__img{
+    object-fit: contain;
 }
 .about__sectionB{
     height: 100%;
