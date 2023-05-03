@@ -32,6 +32,7 @@
     align-items: center;
 }
 .podcast__sectionB_text{
+    font-family: var(--main-typography);
     width: 80%;
 }
 @media only screen and (max-width: 768px) {

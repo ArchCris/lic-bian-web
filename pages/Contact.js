@@ -27,7 +27,7 @@ const Contact = () => {
           animate={{x:'0%',opacity:1}}
           transition={{duration:0.75,ease:"easeOut",delay:0.75}}
           className={styles.contact__imageConteiner}>
-            <Image alt='brain logo with words' className={styles.contact__image} src={papperPlane} fill  />
+            <Image priority alt='brain logo with words' className={styles.contact__image} src={papperPlane} fill  />
           </m.div>
       </div>
       <div className={styles.contact__sectionB}>
