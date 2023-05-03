@@ -22,7 +22,7 @@ const About = () => {
       className={styles.about__conteiner}>
         <div className={styles.about__sectionA}>
           <div className={styles.about__sectionA__conteiner}>
-            <Image alt='woman placeholder' fill src={facePlaceholder} className={styles.about__sectionA__img}></Image>
+            <Image priority alt='woman placeholder' fill src={facePlaceholder} className={styles.about__sectionA__img}></Image>
           </div>
         </div>
         <div className={styles.about__sectionB}>

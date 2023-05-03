@@ -6,8 +6,7 @@ import Badge from '@/components/Badge'
 import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
-import Image from 'next/image'
-import siluette from '../public/womanSiluette.png'
+
 
 
 
@@ -32,7 +31,7 @@ export default function Home() {
         <div className={styles.home__sectionTop}>
           <div className={styles.home__sectionTop_A}>
             <div className={styles.home__sectionTop_A_empapelado}>
-              <Image alt='woman siluette' src={siluette} width={300} className={styles.home__sectionTop_A_empapelado_img}></Image>
+              
             </div>
           </div>
           <div className={styles.home__sectionTop_B}>
