@@ -31,9 +31,13 @@ export default function Home() {
       >
         <m.div className={styles.home__sectionTop}>
           <div className={styles.home__sectionTop_A}>
-            <div className={styles.home__sectionTop_A_empapelado}>
+            <m.div
+            initial={{x:'-150%',opacity:0}}
+            animate={{x:'0%',opacity:1}}
+            transition={{duration:0.75,ease:"easeOut",delay:0.75}} 
+            className={styles.home__sectionTop_A_empapelado}>
               <Image alt='woman siluette' src={siluette} width={300} className={styles.home__sectionTop_A_empapelado_img}></Image>
-            </div>
+            </m.div>
           </div>
           <div className={styles.home__sectionTop_B}>
             <h2 className={styles.home__sectionTop_B_title}>Lic. Bianca M Masci.</h2>

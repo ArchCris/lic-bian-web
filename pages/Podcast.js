@@ -23,7 +23,8 @@ const Podcast = () => {
         <m.div
         initial={{x:'-150%',opacity:0}}
         animate={{x:'0%',opacity:1}}
-        transition={{duration:0.75,ease:"easeOut",delay:0.75}} className={styles.podcast__sectionA}>
+        transition={{duration:0.75,ease:"easeOut",delay:0.75}} 
+        className={styles.podcast__sectionA}>
           <div className={styles.podcast__sectionA__conteiner} >
             <Image alt='woman siluette' src={spotify} fill className={styles.podcast__sectionA__img}></Image>
           </div>
