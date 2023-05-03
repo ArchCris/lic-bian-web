@@ -23,7 +23,6 @@ export default function Home() {
         <link rel="icon" href="/bianIcon.png" />
       </Head>
       <m.main
-        layout
         initial={{y:'100%'}}
         animate={{y:'0%'}}
         transition={{duration:0.75,ease:"easeOut"}}
