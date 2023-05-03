@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div className='conteiner'>
-      <AnimatePresence popLayout initial={false}>
+      <AnimatePresence initial={false}>
         <Navbar/>
         <Component style={{position: "absolute"}} key={router.pathname} {...pageProps} />
       </AnimatePresence>
