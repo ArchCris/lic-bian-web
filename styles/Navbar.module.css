@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: var(--main-typography);
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
     text-decoration: none;
     z-index: 300;
@@ -42,7 +42,7 @@
     z-index: -1;
     content: "";
     background-color: var(--letter);
-    height: 2.4rem;
+    height: 2.15rem;
     opacity: 0;
     width: 0%;
     top: 0;
@@ -103,7 +103,7 @@
         height: 100%;
         flex-direction: column;
         left: 100%;
-        padding: 8rem 0rem;
+        padding: 12rem 0rem;
         z-index: 300;
         background-color: var(--first-color);
     }
