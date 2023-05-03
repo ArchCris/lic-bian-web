@@ -8,6 +8,9 @@
     align-items: center;
     margin: 0 .2rem;
 }
+.badge__conteiner:hover .badge__logoCircle{
+    background-color: white;
+}
 .badge__logoCircle{
     height: 60px;
     width: 60px;
