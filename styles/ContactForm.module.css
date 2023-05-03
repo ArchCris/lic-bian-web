@@ -62,8 +62,11 @@
     border: 2px solid red !important;
 }
 .input__errorText{
+    width: 100%;
     margin-top: .2rem;
     color: red;
+    font-size: .75rem;
+    text-align: center;
 }
 .button__succesText{
     margin-top: 1rem;

@@ -2,8 +2,11 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { motion as m } from "framer-motion"
-import Image from 'next/image'
-import heroImg from '../public/brainPng.png'
+import Badge from '@/components/Badge'
+import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,9 +35,16 @@ export default function Home() {
           section bRigth
           </div>
         </div>
-        <div className={styles.home__sectionBottom}>
-          section bottom
-        </div>
+        <m.div
+        initial={{y:'100%'}}
+        animate={{y:'0%'}}
+        transition={{delay:0.75,duration:0.75,ease:"easeOut"}}
+        exit={{opacity:0}}
+        className={styles.home__sectionBottom}>
+          <Badge icon={faMicrophone} title={"Podcast"} description={"Podcast dedicado a la psycologia y viajes"} />
+          <Badge icon={faInstagram} title={"Instagram"} description={"Contenido para todos los dias"}/>
+          <Badge icon={faBookOpen} title={"Consultas"} description={"Contactarme online por consultas"}/>
+        </m.div>
       </m.main>    
     </>
   )

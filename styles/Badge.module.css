@@ -1,0 +1,31 @@
+.badge__conteiner{
+    height: 90%;
+    aspect-ratio: 1;
+    font-family: var(--main-typography);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 .2rem;
+}
+.badge__logoCircle{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+.badge__title{
+    margin-top: .2rem;
+    font-size: .75rem;
+}
+.badge__description{
+    margin-top: .2rem;
+    color: slategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .6rem;
+    text-align: center;
+}
