@@ -12,24 +12,26 @@
 }
 .about__sectionA{
     height: 100%;
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 .about__sectionA__conteiner{
     position: relative;
-    width: 60%;
+    width: 70%;
     aspect-ratio: 1;
     filter: grayscale(.75);
+    overflow: visible;
 }
 .about__sectionA__img{
     object-fit: contain;
+    -webkit-filter: drop-shadow(10px 10px 0px #222);
+    filter: drop-shadow(10px 10px 0px #222);
 }
 .about__sectionB{
     height: 100%;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +48,9 @@
     .about__sectionA{
         height: 40%;
         width: 100%;
+    }
+    .about__sectionA__conteiner{
+        width: 50%;
     }
     .about__sectionB{
         height: 60%;
