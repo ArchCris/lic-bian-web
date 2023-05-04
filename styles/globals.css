@@ -7,7 +7,7 @@
   margin: 0;
   overflow: hidden;
 }
-:root {
+:root,html[data-theme='original'] {
   /*Letter color*/
   --letter: rgb(32,32,32);
   --plain: white;
@@ -16,6 +16,25 @@
   --second-color:#CED3D5;
   --third-color:#F3ECE7;
   --fourth-color:#FAC8D4;
+
+  --fourth-colorB:#f08080;
+
+  --pattern:rgb(230, 230, 230);
+
+  --main-typography:'Roboto Slab', serif;
+  --second-typography:'Pattaya', sans-serif;
+}
+html[data-theme='secondary'] {
+  /*Letter color*/
+  --letter: rgb(32,32,32);
+  --plain: white;
+  /*Others variables*/
+  --first-color: hsl(64, 100%, 50%);
+  --second-color:hsl(197, 100%, 60%);
+  --third-color:hsl(25, 100%, 70%);
+  --fourth-color:hsl(346, 100%, 80%);
+
+  --fourth-colorB:hsl(0, 100%, 90%);
 
   --pattern:rgb(230, 230, 230);
 

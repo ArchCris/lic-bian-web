@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Navbar.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
+import Themetoggle from './Themetoggle'
 
 
 
@@ -23,6 +24,7 @@ const Navbar = () => {
       <div className={clicked ? `${styles.navbar__body} ${styles.active}` : `${styles.navbar__body}`}>
         <Link onClick={()=>{setClicked(false)}} href={"/"}>Home</Link>
         <Link onClick={()=>{setClicked(false)}} href={"/About"}>Sobre mi</Link>
+        <Themetoggle/>
         <Link onClick={()=>{setClicked(false)}} href={"/Podcast"}>Podcast</Link>
         <Link onClick={()=>{setClicked(false)}} href={"/Contact"}>Contacto</Link>
       </div>

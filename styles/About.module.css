@@ -56,7 +56,10 @@
         height: 60%;
         width: 100%;
     }
+    .about__sectionB_text{
+        font-size: 0.9rem;
+        
+    }
 }
 
 
-  

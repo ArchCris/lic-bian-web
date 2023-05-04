@@ -17,7 +17,7 @@
     margin: 1.2rem 0 .4rem .5rem;
 }
 .ContactForm__form label::first-letter{
-    color: lightcoral;
+    color: var(--fourth-colorB);
 }
 .ContactForm__form input{
     width: 100%;
@@ -46,12 +46,12 @@
     font-size: 1.2rem;
     border-radius: 1rem;
     border: none;
-    background-color: lightcoral;
+    background-color: var(--fourth-colorB);
     color: white;
     transition: all 200ms ease;
 }
 .ContactForm__form button:hover{
-    color: lightcoral;
+    color: var(--fourth-colorB);
     background-color: white;
     cursor: pointer;
 }
