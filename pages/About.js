@@ -15,8 +15,8 @@ const About = () => {
         <link rel="icon" href="/bianIcon.png" />
       </Head>
       <m.div
-      initial={{y:'100%'}}
-      animate={{y:'0%'}}
+      initial={{y:'100%',opacity:0}}
+      animate={{y:'0%',opacity:1}}
       transition={{duration:0.75,ease:"easeOut"}}
       exit={{opacity:0}}
       className={styles.about__conteiner}>
