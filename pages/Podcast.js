@@ -20,24 +20,17 @@ const Podcast = () => {
       transition={{duration:0.75,ease:"easeOut"}}
       exit={{opacity:0}}
       className={styles.podcast__conteiner}>
-        <m.div
-        initial={{x:'-150%',opacity:0}}
-        animate={{x:'0%',opacity:1}}
-        transition={{duration:0.75,ease:"easeOut",delay:0.75}} 
-        className={styles.podcast__sectionA}>
+        <div className={styles.podcast__sectionA}>
           <div className={styles.podcast__sectionA__conteiner} >
-            <Image alt='woman siluette' src={spotify} fill className={styles.podcast__sectionA__img}></Image>
+            <Image alt='woman siluette' src={spotify} className={styles.podcast__sectionA__img} fill></Image>
           </div>
-        </m.div>
-         <m.div
-         initial={{x:'150%',opacity:0}}
-         animate={{x:'0%',opacity:1}}
-         transition={{duration:0.75,ease:"easeOut",delay:0.75}} className={styles.podcast__sectionB}>
+        </div>
+         <div className={styles.podcast__sectionB}>
           <p className={styles.podcast__sectionB_text}>
             What is Lorem Ipsum?<br/><br/>
             &nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-         </m.div>
+         </div>
       </m.div>
     </>
   )
