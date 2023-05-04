@@ -25,7 +25,7 @@ export default function Home() {
       <m.main
         initial={{y:'100%'}}
         animate={{y:'0%'}}
-        transition={{duration:0.75,ease:"easeOut",delay:0.5}}
+        transition={{duration:0.75,ease:"easeOut"}}
         className={styles.home__conteiner}
       >
         <m.div className={styles.home__sectionTop}>
@@ -34,6 +34,7 @@ export default function Home() {
             initial={{x:'-150%',opacity:0}}
             animate={{x:'0%',opacity:1}}
             transition={{duration:0.75,ease:"easeOut",delay:0.75}} 
+            exit={{opacity:0}}
             className={styles.home__sectionTop_A_empapelado}>
               <Image alt='woman siluette' src={siluette} width={300} className={styles.home__sectionTop_A_empapelado_img}></Image>
             </m.div>
