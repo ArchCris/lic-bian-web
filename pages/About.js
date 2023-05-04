@@ -17,8 +17,8 @@ const About = () => {
       <m.div
       initial={{y:'100%'}}
       animate={{y:'0%'}}
-      transition={{duration:0.75,ease:"easeOut"}}
-      exit={{opacity:0}}
+      transition={{duration:0.75,ease:"easeOut",delay:0.5}}
+      
       className={styles.about__conteiner}>
         <m.div
         initial={{x:'-150%',opacity:0}}

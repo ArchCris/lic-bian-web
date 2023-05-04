@@ -25,8 +25,7 @@ export default function Home() {
       <m.main
         initial={{y:'100%'}}
         animate={{y:'0%'}}
-        transition={{duration:0.75,ease:"easeOut"}}
-        exit={{opacity:0}}
+        transition={{duration:0.75,ease:"easeOut",delay:0.5}}
         className={styles.home__conteiner}
       >
         <m.div className={styles.home__sectionTop}>
