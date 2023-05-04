@@ -51,6 +51,7 @@
     .podcast__sectionB{
         height: 60%;
         width: 100%;
+        align-items: flex-start;
     }
 }
 
