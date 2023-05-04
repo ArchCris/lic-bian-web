@@ -22,8 +22,8 @@ const Themetoggle = () => {
             checked={checked} 
             checkedIcon={false}
             uncheckedIcon={false}
-            offColor={'#888'} 
-            onColor={'#080'}/>
+            offColor={'#000'} 
+            onColor={'#000'}/>
   )
 }
 
