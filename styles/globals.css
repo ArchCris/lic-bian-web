@@ -31,7 +31,7 @@ html[data-theme='secondary'] {
   /*Others variables*/
   --first-color: hsl(64, 100%, 50%);
   --second-color:hsl(197, 100%, 60%);
-  --third-color:hsl(25, 100%, 70%);
+  --third-color:hsl(25, 100%, 60%);
   --fourth-color:hsl(346, 100%, 80%);
 
   --fourth-colorB:hsl(0, 100%, 90%);
@@ -44,7 +44,6 @@ html[data-theme='secondary'] {
 .conteiner{
   height: 100vh;
   width: 100vw;
-  position: relative;
   background:
     linear-gradient(45deg, var(--pattern) 45px, transparent 45px)64px 64px,
     linear-gradient(45deg, var(--pattern) 45px, transparent 45px,transparent 91px, white 91px, white 135px, transparent 135px),

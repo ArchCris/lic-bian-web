@@ -13,8 +13,10 @@ const Navbar = () => {
   const toggleMenu = () =>{
     if(clicked===true){
       setClicked(false)
+      console.log(clicked)
     }else{
       setClicked(true)
+      console.log(clicked)
     }
   }
 

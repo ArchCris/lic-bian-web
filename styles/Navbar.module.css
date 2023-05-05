@@ -1,6 +1,6 @@
 /*Parent element*/
 .navbar__conteiner{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
 }
@@ -96,9 +96,6 @@
     transition: all 500ms ease;
     background-color: var(--letter);
 }
-.active{
-    display: none;
-}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -117,7 +114,6 @@
         display: block;
     }
     .trans1{
-
         transform:  translateY(calc(1.5rem - 3px)) translateX(.3rem) rotate(-45deg) ;
     }
     .trans2{

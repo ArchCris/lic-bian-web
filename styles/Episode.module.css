@@ -8,9 +8,10 @@
     background-color: rgba(211, 211, 211, 0.25);
     text-align: center;
     padding: 1.5rem;
+    border: solid .5px grey;
 }
 .conteiner__episode:hover{
-    background-color: rgba(211, 211, 211, 0.75);
+    background-color: rgba(211, 211, 211, 0.35);
 }
 .conteiner__title{
     margin: 1rem;
