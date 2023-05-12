@@ -27,9 +27,8 @@ const About = () => {
         </div>
         <div className={styles.about__sectionB}>
           <p className={styles.about__sectionB_text}>
-            Un poco sobre mi<br/>
-            &nbsp;&nbsp;Soy psicóloga, viajera y chef. Me gradué de la Universidad Católica de La Plata 🇦🇷 en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺. Este recorrido me permitió experimentar y comprender una cultura y un contexto diferente. 
-            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero. 
+            &nbsp;&nbsp;Soy <span className={styles.sub}>psicóloga, viajera y chef.</span> Me gradué de la Universidad Católica de La Plata 🇦🇷 en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺.<br/>Este recorrido me permitió experimentar y comprender una cultura y un contexto diferente.<br/> 
+            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero.<br/> 
             &nbsp;&nbsp;Bienvenidos a este espacio de aprendizaje y crecimiento.
           </p>
         </div>
