@@ -5,17 +5,17 @@ import Episode from './Episode'
 
 const DisplayEpisodes = () => {
     const episodes = [{
-        title:"La inmigracion",
-        description:"En este episodio vamos a hablar sobre la inmigracion todo lo que ganamos y perdemos durante este proceso"
+        title:"¿Por qué viajar?",
+        description:"Les comparto mi historia desde la primera vez que pensé en la posibilidad de viajar, como fue migrar en pandemia y lo que aprendí en este año y medio de viaje."
         },{
-        title:"La inmigracion",
-        description:"En este episodio vamos a hablar sobre la inmigracion todo lo que ganamos y perdemos durante este proceso"
+        title:"Duelo migratorio",
+        description:"En este episodio vamos a des- romantizar el proceso migratorio y vamos a poner sobre la mesa los procesos emocionales y psicológicos a los cuales nos podemos enfrentar. "
         },{
-        title:"La inmigracion",
-        description:"En este episodio vamos a hablar sobre la inmigracion todo lo que ganamos y perdemos durante este proceso"
+        title:"Irse, llegar y reencuentro",
+        description:"Son muchos los cambios y las expectativas a las que nos enfrentamos cuando migramos (y volvemos). ¿Podemos hablar de un Jay lag psicológico? "
         },{
-        title:"La inmigracion",
-        description:"En este episodio vamos a hablar sobre la inmigracion todo lo que ganamos y perdemos durante este proceso"
+        title:"Personas",
+        description:"Episodio dedicado a nuestras personas fundamentales, a esas conexiones que nos ayudan a la distancia o en persona a enfrentar nuestros problemas y disfrutar de los buenos momentos. ¿Qué haríamos sin ellos?"
     }]
   return (
     <div className={styles.display__conteiner}>

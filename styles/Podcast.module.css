@@ -14,7 +14,6 @@
     height: 100%;
     width: 30%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .podcast__sectionA__conteiner{
@@ -42,6 +41,7 @@
         flex-direction: column;
     }
     .podcast__sectionA{
+        justify-content: center;
         height: 40%;
         width: 100%;
     }
@@ -51,7 +51,7 @@
     .podcast__sectionB{
         height: 60%;
         width: 100%;
-        align-items: fle;
+        align-items: flex-start;
     }
 }
 

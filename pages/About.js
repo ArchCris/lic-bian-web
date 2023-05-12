@@ -27,8 +27,10 @@ const About = () => {
         </div>
         <div className={styles.about__sectionB}>
           <p className={styles.about__sectionB_text}>
-            What is Lorem Ipsum?<br/>
-            &nbsp;&nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Un poco sobre mi<br/>
+            &nbsp;&nbsp;Soy psicóloga, viajera y chef. Me gradué de la Universidad Católica de La Plata 🇦🇷 en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺. Este recorrido me permitió experimentar y comprender una cultura y un contexto diferente. 
+            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero. 
+            &nbsp;&nbsp;Bienvenidos a este espacio de aprendizaje y crecimiento.
           </p>
         </div>
       </m.div>

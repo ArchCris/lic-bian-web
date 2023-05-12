@@ -11,11 +11,11 @@
     border: solid .5px grey;
 }
 .conteiner__episode:hover{
-    background-color: rgba(211, 211, 211, 0.35);
+    background-color: rgba(139, 139, 139, 0.35);
 }
-.conteiner__title{
+.conteiner__title{  
     margin: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .conteiner__text{
     font-size: 1rem;
@@ -23,11 +23,11 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .conteiner__episode{
-        padding: 0.5rem;
+        padding: 0.4rem;
     }
     .conteiner__title{
         margin: 0.5rem;
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .conteiner__text{
         font-size: 0.7rem;

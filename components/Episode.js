@@ -6,8 +6,8 @@ import { faMicrophone } from '@fortawesome/free-solid-svg-icons'
 const Episode = (props) => {
   return (
     <div className={styles.conteiner__episode}>
-        <FontAwesomeIcon icon={faMicrophone} size="xl" />
-        <h3 className={styles.conteiner__title}>{props.title}</h3>
+        <FontAwesomeIcon icon={faMicrophone} size="l" />
+        <p className={styles.conteiner__title}>{props.title}</p>
         <p className={styles.conteiner__text}>{props.description}</p>
     </div>
   )

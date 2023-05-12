@@ -9,7 +9,8 @@
 @media only screen and (max-width: 768px) {
     /*For mobile phones*/
     .display__conteiner{
-        width: 80%;
+        width: 95%;
+        aspect-ratio: 1;
     }
 }
 
