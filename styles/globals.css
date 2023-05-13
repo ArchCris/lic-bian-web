@@ -19,6 +19,8 @@
 
   --fourth-colorB:#f08080;
 
+  --bandw:white;
+
   --pattern:rgb(230, 230, 230);
 
   --main-typography:'Roboto Slab', serif;
@@ -29,14 +31,16 @@ html[data-theme='secondary'] {
   --letter: rgb(32,32,32);
   --plain: white;
   /*Others variables*/
-  --first-color: hsl(64, 100%, 50%);
-  --second-color:hsl(197, 100%, 60%);
-  --third-color:hsl(25, 100%, 60%);
-  --fourth-color:hsl(346, 100%, 80%);
+  --first-color: rgb(230, 241, 74);
+  --second-color:rgb(204, 204, 245);
+  --third-color:rgb(215, 192, 174);
+  --fourth-color:rgb(255, 153, 177);
 
   --fourth-colorB:hsl(0, 100%, 90%);
 
   --pattern:rgb(230, 230, 230);
+
+  --bandw:black;
 
   --main-typography:'Roboto Slab', serif;
   --second-typography:'Pattaya', sans-serif;

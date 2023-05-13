@@ -21,7 +21,6 @@
     position: relative;
     width: 70%;
     aspect-ratio: 1;
-    filter: grayscale(.75);
     overflow: visible;
 }
 .podcast__sectionA__img{

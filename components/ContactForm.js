@@ -82,7 +82,7 @@ const ContactForm = () => {
                 data-testid="loader"
                 />
             </button>
-            {messageStatus ? <p className={styles.button__succesText}>Gracias por tu mensaje &#128513;</p> : null}
+            {messageStatus ? <p className={styles.button__succesText}>Gracias por tu mensaje</p> : null}
         </form>
     </m.div>
   )

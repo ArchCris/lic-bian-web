@@ -32,6 +32,7 @@ const Contact = () => {
       </div>
       <div className={styles.contact__sectionB}>
         <ContactForm/>
+        <p className={styles.contact__developer}>Developed by CrissMDev Ⓡ</p>
       </div>
     </m.div>
     </>

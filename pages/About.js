@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css'
 import { motion as m } from "framer-motion"
 import Head from 'next/head'
 import Image from 'next/image'
-import facePlaceholder from '../public/biancaPhoto.png'
+import facePlaceholder from '../public/biancaPhoto.jpeg'
 
 const About = () => {
   return (
@@ -27,9 +27,10 @@ const About = () => {
         </div>
         <div className={styles.about__sectionB}>
           <p className={styles.about__sectionB_text}>
-            &nbsp;&nbsp;Soy <span className={styles.sub}>psicóloga, viajera y chef.</span> Me gradué de la Universidad Católica de La Plata 🇦🇷 en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺.<br/>Este recorrido me permitió experimentar y comprender una cultura y un contexto diferente.<br/> 
-            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero.<br/> 
-            &nbsp;&nbsp;Bienvenidos a este espacio de aprendizaje y crecimiento.
+            &nbsp;&nbsp;Mi nombre es <span className={styles.sub}>Bianca Marina Masci</span> ,nací en la ciudad de La Plata, Buenos Aires ,Argetina 🇦🇷. Me gusta presentarme como <span className={styles.sub}>psicóloga, viajera y chef.</span> Me gradué como licenciada en psciología en la Universidad Católica de La Plata, en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺.<br/>&nbsp;&nbsp;Este recorrido es un continuo entre comprenderme en una cultura y un contexto diferente, y aprehender todo lo que eso tiene para darme.<br/> 
+            &nbsp;&nbsp;Si bien mi formación fue mayormente Pscicoanalítica, desde mi último año de la universidad estoy especializandome en un <span className={styles.sub}>enfoque cognitivo conductual.</span>
+            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero.<br/><br/> 
+            &nbsp;&nbsp;Bienvenidxs a este espacio de aprendizaje y crecimiento 💡.
           </p>
         </div>
       </m.div>

@@ -38,6 +38,9 @@
 .about__sectionB_text{
     font-family: var(--main-typography);
     width: 80%;
+    font-size: 1.1rem;
+    text-align: center;
+    
 }
 .sub{
     background-color: var(--letter);
@@ -54,7 +57,7 @@
         width: 100%;
     }
     .about__sectionA__conteiner{
-        width: 70%;
+        width: 50%;
     }
     .about__sectionB{
         height: 60%;

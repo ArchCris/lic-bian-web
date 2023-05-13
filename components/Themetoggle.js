@@ -4,7 +4,7 @@ import Switch from "react-switch";
 
 const Themetoggle = () => {
 
-   const[checked,setChecked]=useState(null)
+   const[checked,setChecked]=useState(true)
 
     const toggleTheme = () =>{
       
