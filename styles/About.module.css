@@ -40,7 +40,6 @@
     width: 80%;
     font-size: 1.1rem;
     text-align: center;
-    
 }
 .sub{
     background-color: var(--letter);
@@ -67,6 +66,7 @@
     .about__sectionB_text{
         font-size: 0.85rem;
         width: 85%;
+        text-align:left;
     }
 }
 

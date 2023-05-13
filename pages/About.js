@@ -27,9 +27,9 @@ const About = () => {
         </div>
         <div className={styles.about__sectionB}>
           <p className={styles.about__sectionB_text}>
-            &nbsp;&nbsp;Mi nombre es <span className={styles.sub}>Bianca Marina Masci</span> ,nací en la ciudad de La Plata, Buenos Aires ,Argetina 🇦🇷. Me gusta presentarme como <span className={styles.sub}>psicóloga, viajera y chef.</span> Me gradué como licenciada en psciología en la Universidad Católica de La Plata, en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺.<br/>&nbsp;&nbsp;Este recorrido es un continuo entre comprenderme en una cultura y un contexto diferente, y aprehender todo lo que eso tiene para darme.<br/> 
-            &nbsp;&nbsp;Si bien mi formación fue mayormente Pscicoanalítica, desde mi último año de la universidad estoy especializandome en un <span className={styles.sub}>enfoque cognitivo conductual.</span>
-            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero.<br/><br/> 
+            &nbsp;&nbsp;Mi nombre es <span className={styles.sub}>Bianca Marina Masci</span> ,nací en la ciudad de La Plata, Buenos Aires, Argentina 🇦🇷. Me gusta presentarme como <span className={styles.sub}>psicóloga, viajera y chef.</span> Me gradué como licenciada en psicología en la Universidad Católica de La Plata, en diciembre de 2020, luego migré a Dinamarca 🇩🇰 y actualmente estoy viviendo en Australia 🇦🇺.<br/>&nbsp;&nbsp;Este recorrido es un continuo entre comprenderme en una cultura y un contexto diferente, y aprehender todo lo que eso tiene para darme.<br/> 
+            &nbsp;&nbsp;Si bien mi formación fue mayormente Psicoanalítica, desde mi último año de la universidad estoy especializandome en un <span className={styles.sub}>enfoque cognitivo conductual.</span>
+            Decidí crear este espacio en el que, a través de nuestro podcast y publicaciones en Instagram, podamos hablar sobre diferentes temas recurrentes de la migración y la vida en el extranjero.<br/>
             &nbsp;&nbsp;Bienvenidxs a este espacio de aprendizaje y crecimiento 💡.
           </p>
         </div>
