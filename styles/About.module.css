@@ -12,16 +12,15 @@
 }
 .about__sectionA{
     height: 100%;
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .about__sectionA__conteiner{
     position: relative;
-    width: 70%;
+    width: 90%;
     aspect-ratio: 1;
-    filter: grayscale(.75);
     overflow: visible;
 }
 .about__sectionA__img{
@@ -31,10 +30,10 @@
 }
 .about__sectionB{
     height: 100%;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .about__sectionB_text{
     font-family: var(--main-typography);
@@ -55,11 +54,12 @@
         width: 100%;
     }
     .about__sectionA__conteiner{
-        width: 50%;
+        width: 70%;
     }
     .about__sectionB{
         height: 60%;
         width: 100%;
+        align-items: flex-start;
     }
     .about__sectionB_text{
         font-size: 0.85rem;

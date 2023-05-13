@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css'
 import { motion as m } from "framer-motion"
 import Head from 'next/head'
 import Image from 'next/image'
-import facePlaceholder from '../public/facePlaceholder.png'
+import facePlaceholder from '../public/biancaPhoto.png'
 
 const About = () => {
   return (
